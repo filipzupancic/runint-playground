@@ -1,0 +1,11 @@
+{
+  "project_name": "playground_pilot",
+  "engine": {
+    "provider": "ollama",
+    "gpu_count": 0,
+    "container_image": "ollama/ollama:latest"
+  },
+  "models": [
+    { "name": "llama3", "source": "ollama_library" }
+  ]
+}
